@@ -12,7 +12,7 @@ int main()
     int cantidad;
     string contenido;
     ifstream españa;
-    españa.open ("/Users/tizianomartinhernando/Desktop/raiz/c++/DuarteCurso/Buscador/España.txt");
+    españa.open ("España.txt");
 
     if (!españa.is_open ()){
         cout << "Error: No se ha podido abrir el archivo" << endl;
